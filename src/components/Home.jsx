@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import { GoMail } from "react-icons/go";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -35,11 +35,12 @@ function Home() {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[300px] w-full'>
-                        <FaInstagram size={40} className='cursor-pointer'/>
-                        <FaLinkedinIn size={40} className='cursor-pointer'/>
-                        <FaTwitter size={40} className='cursor-pointer'/>
-                        <GoMail size={40} className='cursor-pointer'/>
+                        <a href="https://github.com/negi-gaurav1608" target='_blank'><FaGithub size={40} className='cursor-pointer'/></a>
+                        <a href="https://www.linkedin.com/in/gaurav-negi-7410a4253/" target='_blank'><FaLinkedinIn size={40} className='cursor-pointer'/></a>
+                        <a href="https://x.com/GauravNegi1608" target='_blank'><FaTwitter size={40} className='cursor-pointer'/></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target='_blank'><GoMail size={40} className='cursor-pointer'/></a>    
                     </div>
+                    
                 </div>
             </div>
         </div>
