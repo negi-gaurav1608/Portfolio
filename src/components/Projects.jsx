@@ -22,7 +22,7 @@ function Projects() {
             <div className='grid sm:grid-cols-2 gap-12'>
                 <Projectitem img={cafe} title="Coffee-Cafe" link="https://coffee-cafe-jet.vercel.app" git="https://github.com/negi-gaurav1608/Coffee-Cafe"/>
                 
-                <Projectitem img={audio_logo} title="Audio Player" link="hhttps://audio-player-vert-three.vercel.app" git="https://github.com/negi-gaurav1608/Audio-Player"/>
+                <Projectitem img={audio_logo} title="Audio Player" link="https://audio-player-vert-three.vercel.app" git="https://github.com/negi-gaurav1608/Audio-Player"/>
                 
 
                 <Projectitem img={currency} title='Currency Convertor' link="https://currency-convertor-indol.vercel.app/" git="https://github.com/negi-gaurav1608/Currency_convertor"/>
