@@ -38,8 +38,18 @@ function Home() {
                         <a href="https://github.com/negi-gaurav1608" target='_blank'><FaGithub size={40} className='cursor-pointer'/></a>
                         <a href="https://www.linkedin.com/in/gaurav-negi-7410a4253/" target='_blank'><FaLinkedinIn size={40} className='cursor-pointer'/></a>
                         <a href="https://x.com/GauravNegi1608" target='_blank'><FaTwitter size={40} className='cursor-pointer'/></a>
-                        <a href="https://mail.google.com/mail/u/0/#inbox" target='_blank'><GoMail size={40} className='cursor-pointer'/></a>    
+                        
                     </div>
+                    
+                    <div className='flex flex-col justify-center items-center pt-6'>
+                        <div className='flex justify-around gap-2 mb-2'>
+                            <GoMail size={30}/><span className='flex text-2xl text-gray-800 cursor-pointer hover:underline'> ngaurav825@gmail.com</span>
+                        </div>
+                        {/* <div className='flex justify-around gap-2'>
+                            <GoDeviceMobile size={30}/><span className='flex text-2xl text-gray-800'> +91 7302335760</span>
+                        </div> */}
+                    </div>
+                    
                     
                 </div>
             </div>

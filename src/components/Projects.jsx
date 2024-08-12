@@ -8,7 +8,7 @@ import Projectitem from './Projectitem'
 
 function Projects() {
     return (
-        <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#FFF8E7]'>
             <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
             <p className='text-center pt-8 text-xl'>As a passionate frontend developer, I've dedicated my time to creating dynamic and user-friendly web interfaces. My projects span various domains and showcase my skills in HTML, CSS, JavaScript, and modern frameworks like ReactJs.</p>
             <p className='text-center py-2 text-xl'>

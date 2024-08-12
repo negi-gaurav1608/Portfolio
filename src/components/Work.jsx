@@ -26,7 +26,7 @@ const data=[
 ]
 function Work() {
     return (
-        <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#FFFFF0]'>
             <h1 className='text-4xl font-bold text-center text-red-600'>
                 Experience
             </h1>
