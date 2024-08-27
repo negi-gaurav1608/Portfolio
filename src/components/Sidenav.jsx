@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineFile, AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineUser, } from 'react-icons/ai';
 import { FaLayerGroup } from 'react-icons/fa';
 import { GrProjects } from 'react-icons/gr';
-import gaurav_resume from '../assets/gaurav_resume.pdf';
+import Gaurav_resume from '../assets/Gaurav Resume.pdf';
 
 function Sidenav() {
     const [nav,setNav]=useState(false);
@@ -44,7 +44,7 @@ function Sidenav() {
                             </span>
                         </a>
 
-                        <a onClick={handleNav} href={gaurav_resume} target='_blank' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+                        <a onClick={handleNav} href={Gaurav_resume} target='_blank' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
                             <AiOutlineFile size={20}/>
                             <span className='pl-4'>
                                 Resume
@@ -83,7 +83,7 @@ function Sidenav() {
                             <span className='relative inline-block'>Projects</span>
                         </a>
 
-                        <a  href={gaurav_resume} target='_blank' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:110 ease-in duration-200'>
+                        <a  href={Gaurav_resume} target='_blank' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:110 ease-in duration-200'>
                             <AiOutlineFile size={20}/>
                             <span className='relative inline-block'>Resume</span>
                         </a>

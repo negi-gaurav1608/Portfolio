@@ -18,13 +18,15 @@ function Home() {
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                '3rd year CSE student',
+                                '3rd year CSE Student',
                                 1000,
                                 'Frontend Developer',
                                 1000,
                                 'Tech Enthusiast',
                                 1000,
-                                'Coder',
+                                'C++ Coder',
+                                1000,
+                                'Data Analyst',
                                 1000
                             ]}
                             wrapper="div"

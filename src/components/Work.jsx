@@ -21,6 +21,12 @@ const data=[
         title:'Data Structure and Algorithm',
         duration:'till present',
         details:'Solved numerous problems on LeetCode and GeeksforGeeks, demonstrating strong problem-solving skills and a deep understanding of algorithms and data structures.Developed proficiency in tackling complex coding challenges and optimizing solutions for efficiency.'
+    },
+    {
+        year:'2024',
+        title:'Data Analytics with Python Intern',
+        duration:'2 months',
+        details:'During the internship I learned about different python libraries like pandas, matplotlib, numpy, seaborn to manipulate and visualize data and to optimize feature sets for improved data model performance.'
     }
     
 ]
